@@ -1,10 +1,10 @@
 const fetch = require("node-fetch");
 
-const host = 'to bo specified';
-const realm = 'to bo specified';
-const userName = 'to bo specified';
-const pass = 'to bo specified';
-const clientSecret = 'to bo specified';
+const host = 'to be specified';
+const realm = 'to be specified';
+const userName = 'to be specified';
+const pass = 'to be specified';
+const clientSecret = 'to be specified';
 
 test('Keycloakで認証できる', async () => {
     const res = await fetch(host + '/auth/realms/' + realm + '/protocol/openid-connect/token', {
